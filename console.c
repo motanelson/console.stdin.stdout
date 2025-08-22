@@ -6,7 +6,7 @@ int main(){
     char sss[4096]="\0";
     char *ss=sss;
    
-    fputs(s,stdout);
+    printf("%s",s); 
     while (ss[0]!='\n'){
         ss=fgets(sss,4095,stdin);
         if(ss[0]=='\n'){
